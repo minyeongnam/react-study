@@ -12,14 +12,14 @@ export function personReducer(person, action) {
         }),
       };
     }
-    case "add": {
+    case "added": {
       const { name, title } = action;
       return {
         ...person,
         mentors: [...person.mentors, { name, title }],
       };
     }
-    case "remove": {
+    case "deleted": {
       const { name } = action;
       return {
         ...person,
