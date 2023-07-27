@@ -17,7 +17,7 @@ export default function Products() {
         value={checked}
         onChange={handleChange}
       />
-      <label htmlFor="checked">Show Only Sale</label>
+      <label htmlFor="checked">Show Only Sale 🔥🔥🔥🔥🔥🔥🔥🔥</label>
       <ul>
         {products.map((product) => (
           <li key={product.id}>
